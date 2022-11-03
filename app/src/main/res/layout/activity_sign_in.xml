@@ -7,6 +7,8 @@
     android:padding="@dimen/_24sdp"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:scrollbars="none"
+    android:overScrollMode="never"
     tools:context=".activities.SignInActivity">
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +28,7 @@
         android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/input_email"
+        android:id="@+id/inputEmail"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
         android:layout_marginTop="@dimen/_40sdp"
@@ -40,7 +42,7 @@
         android:textColor="@color/primary_text"/>
 
     <EditText
-        android:id="@+id/input_password"
+        android:id="@+id/inputPassword"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
         android:layout_marginTop="@dimen/_16sdp"

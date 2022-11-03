@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/drawable/background_image.xml" value="0.2215" />
         <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/drawable/background_input.xml" value="0.2215" />
         <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/drawable/transparent_border.xml" value="0.264" />
         <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
-        <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/Users/arsen/AndroidStudioProjects/Messenger/app/src/main/res/layout/welcome_page.xml" value="0.264" />
       </map>
     </option>
