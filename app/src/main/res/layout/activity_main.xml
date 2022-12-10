@@ -52,4 +52,29 @@
         app:layout_constraintStart_toEndOf="@id/imageProfile"
         app:layout_constraintTop_toTopOf="@id/imageProfile"/>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:background="@drawable/background_content_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageProfile">
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageAdd"
+        android:layout_width="@dimen/_38sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:padding="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:layout_marginRight="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:background="@drawable/background_icon_rounded"
+        android:src="@drawable/ic_add"
+        android:tint="@color/white"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
